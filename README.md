@@ -9,9 +9,9 @@ This is a Night mode theme that can be activated and deactivated by using a tool
 ![](images/example-menu-night.png)
 
 #### Search Bar:
-![](images/search-night mode.png)
+![](images/search-night%20mode.png)
 
-## Instalation:
+## Installation:
 * Download the project [here](https://github.com/clusterdesign/nightmode-extension)
 * Unzip the file
 * Paste the two extracted folders  (nightmode and ClusterNightMode) into your Qlik Sense Extensions folder
@@ -23,6 +23,7 @@ This is a Night mode theme that can be activated and deactivated by using a tool
 ![](images/drag.png)
 -Done! now you just need to click on the Save and Done buttons, and the night mode button will appear on the toolbar right hand side
 ![](images/button.png)
+
 
 ## It also works for smaller screens
 ![](images/small-screens-1.png)

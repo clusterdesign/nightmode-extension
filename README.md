@@ -1,7 +1,7 @@
-# nightmode-extension
+# Nightmode-extension
 This is a Night mode theme that can be activated and deactivated by using a toolbar button at the top right of a QVF application.
 
-INSTALLATION:
+## Instalation:
 -Download the project here: https://github.com/clusterdesign/nightmode-extension
 -Unzip the file
 -Paste the two extracted folders  (nightmode and ClusterNightMode) into your Qlik Sense Extensions folder

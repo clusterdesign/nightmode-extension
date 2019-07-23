@@ -1,9 +1,8 @@
 # Nightmode-extension
 This is a Night mode theme that can be activated and deactivated by using a toolbar button at the top right of a QVF application.
+![](images/dark-bright-modes.png)
 ![](images/dark-1.png)
 ![](images/dark-2.png)
-![](images/dark-button.png)
-![](images/white-button.png)
 
 #### Menu:
 ![](images/example-menu-night.png)

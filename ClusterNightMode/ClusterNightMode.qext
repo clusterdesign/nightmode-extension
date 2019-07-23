@@ -1,0 +1,8 @@
+{
+	"name" : "Cluster Night Mode",
+	"description" : "Cluster Bar Chart",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "1.0",
+	"author": "Cluster"
+}

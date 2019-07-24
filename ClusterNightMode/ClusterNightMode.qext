@@ -4,5 +4,6 @@
 	"icon" : "extension",
 	"type" : "visualization",
 	"version": "1.0",
-	"author": "Cluster"
+	"author": "Cluster",
+	"preview": "preview.png"
 }

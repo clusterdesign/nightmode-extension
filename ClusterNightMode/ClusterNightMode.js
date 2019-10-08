@@ -20,7 +20,7 @@ function (qlik) {
 
     addStyleLinkToHeader('wiFonts-fa', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");  
       
-    document.addEventListener("click", (evt) => {
+    document.addEventListener("click", function(evt) {
         if(evt.target.id == 'nightmode') {
             if(document.body.classList.contains('nightmode')) {
                 qlik.theme.apply('sense').then(function(result){
@@ -36,67 +36,7 @@ function (qlik) {
     return {
         paint: function ( $element, layout ) {
 
-            let style = `
-                <style>
-                    
-                #nightmode {
-                    background-size: 20px;
-                    background-repeat: no-repeat;
-                    /* padding: 10px; */
-                    /* height: 15px; */
-                    width: 15px;
-                    border: none;
-                    /* border-radius: 100%; */
-                    /* box-shadow: 1px 1px 10px -3px black; */
-                    width: 37px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    text-align: center;
-                    background-position: center;
-                    cursor: pointer;
-                    background-color: white;
-                    transition: all 250ms ease;
-                    font-size: 20px;
-                }
-
-                #nightmode:hover {
-                    background-color: #c9c9c9;
-                    opacity: 0.6;
-                }
-
-                .nightmode #nightmode:hover {
-                    background-color: #222222;
-                    color: #868686;
-                }
-
-                #nightmode i {
-                    pointer-events: none;
-                }
-
-                .nightmode #nightmode {
-                    background: #2d2d2d;
-                }
-
-                .nightmode .fas.fa-moon {
-                    display: none;
-                }
-                
-                .nightmode .fas.fa-sun {
-                    display: block;
-                    color: #cacaca;
-                }
-                
-                .fas.fa-sun {
-                    display: none;
-                }
-                
-                .fas.fa-moon {
-                    display: block;
-                }
-
-                </style>
-            `;
+            let style = "<style> #nightmode {background-size: 20px; background-repeat: no-repeat; width: 15px; border: none; width: 37px; display: flex; align-items: center; justify-content: center; text-align: center; background-position: center; background-color: white; transition: all 250ms ease; font-size: 20px;} #nightmode:hover {background-color: #c9c9c9; opacity: 0.6;} .nightmode #nightmode:hover {background-color: #222222; color: #868686;} #nightmode i {pointer-events: none;} .nightmode #nightmode {background: #2d2d2d;} .nightmode .fas.fa-moon {display: none;} .nightmode .fas.fa-sun {display: block; color: #cacaca;} .fas.fa-sun {display: none;} .fas.fa-moon {display: block;}</style>";
             if(document.querySelector("#nightmode")) {
                 return;
             } else {

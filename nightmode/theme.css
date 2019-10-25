@@ -572,6 +572,10 @@ screen and (max-width: 640px) {
     background: #464646;
 }
 
+.nightmode .CodeMirror-scrollbar-filler {
+    background: transparent;
+}
+
 .nightmode .scripteditor-main.no-toolbar .scripteditor-stage {
     background: #262626;
 }

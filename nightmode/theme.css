@@ -609,3 +609,10 @@ screen and (max-width: 640px) {
 .nightmode .connsdk-odbc-connect-dialog-host__dialog__body {
     background: #161616;
 }
+.nightmode .connsdk-odbc-connect-dialog-host__dialog__body .lui-label {
+    color: #cacaca;
+}
+.nightmode .connsdk-odbc-connect-dialog-host__dialog__body .connsdk-odbc-property-group__header__label {
+    color: #cacaca;
+}
+

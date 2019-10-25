@@ -568,7 +568,7 @@ screen and (max-width: 640px) {
     border-bottom: 1px solid #4c4c4c;
 }
 
- .nightmode .CodeMirror-vscrollbar::-webkit-scrollbar-thumb {
+ .nightmode .CodeMirror-vscrollbar::-webkit-scrollbar-thumb, .nightmode .CodeMirror-hscrollbar::-webkit-scrollbar-thumb {
     background: #464646;
 }
 

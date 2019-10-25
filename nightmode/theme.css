@@ -566,3 +566,11 @@ screen and (max-width: 640px) {
     background-color: #252525;
     border-bottom: 1px solid #4c4c4c;
 }
+
+ .nightmode .CodeMirror-vscrollbar::-webkit-scrollbar-thumb {
+        background: #464646;
+}
+
+.nightmode .scripteditor-main.no-toolbar .scripteditor-stage {
+    background: #262626;
+}

@@ -471,8 +471,8 @@ screen and (max-width: 640px) {
 }
 
 .nightmode .codearea-tabs .vtabs .tab-list .included-tab-list .included-tab-row.selected, .codearea-tabs .vtabs .tab-list .selected {
-    background-color: #313131;
-    color: #fff;
+    background-color: #313131 !important;
+    color: #fff !important;
 }
 
 .nightmode .codearea-tabs .vtabs .tab-list .tabrow .vtabs-title input {
@@ -504,6 +504,7 @@ screen and (max-width: 640px) {
 
 .nightmode .scripteditor-stage .qui-toolbar {
     background-color: #252525;
+    box-shadow: none;
 }
 
 .nightmode .scripteditor-stage .scripteditor-divider {
@@ -568,9 +569,39 @@ screen and (max-width: 640px) {
 }
 
  .nightmode .CodeMirror-vscrollbar::-webkit-scrollbar-thumb {
-        background: #464646;
+    background: #464646;
 }
 
 .nightmode .scripteditor-main.no-toolbar .scripteditor-stage {
     background: #262626;
+}
+
+
+/* create connection screen  */
+.nightmode .script-create-connection {
+    background-color: #161616;
+}
+
+.nightmode .script-create-connection .lui-dialog__footer, .nightmode .script-create-connection .lui-dialog__header {
+    background-color: #cacaca;
+}
+
+.nightmode .script-create-connection .lui-list__header {
+    background-color: rgb(35, 34, 34);
+}
+
+.nightmode .script-create-connection .lui-list__item {
+    border-bottom: 1px solid #cacaca26;
+}
+
+.nightmode .script-create-connection .content-container {
+    border: 1px solid #cacaca26;
+}
+
+.nightmode .script-create-connection .lui-list__item.lui-hover, .script-create-connection .lui-list__item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.nightmode .connsdk-odbc-connect-dialog-host__dialog__body {
+    background: #161616;
 }

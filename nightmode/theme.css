@@ -253,7 +253,7 @@
 .nightmode .lui-search,
 .lui-search .lui-search__input {
     color: #cacaca;
-    background: #212121;
+    background: #333333;
 }
 
 .nightmode .qv-panel-current-selections .item.multi-active,
@@ -461,4 +461,108 @@ screen and (max-width: 640px) {
         border-bottom: 1px solid #2c2c2c;
     }
 
+}
+
+
+
+/* //load script screen  */
+.nightmode .codearea-tabs {
+    background: #1f1f1f;
+}
+
+.nightmode .codearea-tabs .vtabs .tab-list .included-tab-list .included-tab-row.selected, .codearea-tabs .vtabs .tab-list .selected {
+    background-color: #313131;
+    color: #fff;
+}
+
+.nightmode .codearea-tabs .vtabs .tab-list .tabrow .vtabs-title input {
+    color: #fff;
+}
+
+.nightmode .scripteditor-main .bottom-pane {
+    background-color: #2e2e2e;
+    border-top: 1px solid #4c4c4c;
+}
+
+.nightmode  .bottom-pane .section-buttons .lui-button {
+    color: #cacaca;
+    border: 1px solid #403f3f;
+}
+
+.nightmode .scripteditor-main.no-toolbar .scripteditor-right {
+    background-color: #1f1f1f;
+}
+
+.nightmode .scripteditor-main .scripteditor-right .accordion {
+    border-left: 1px solid #4c4c4c;
+}
+
+.nightmode .accordion-dataconnectors .connection-controls-container .add-connection {
+    color: #cacaca;
+    border: 1px solid #403f3f;
+}
+
+.nightmode .scripteditor-stage .qui-toolbar {
+    background-color: #252525;
+}
+
+.nightmode .scripteditor-stage .scripteditor-divider {
+    background-color: #252525;
+}
+
+.nightmode .codearea-container .CodeMirror-gutters {
+    background-color: #2a2a2a;
+    border-right: 1px solid #4c4c4c;
+}
+
+.nightmode .qv-codearea .CodeMirror-lines, .nightmode .qv-codearea .CodeMirror {
+    background-color: #262626;
+}
+
+.nightmode .qv-codearea-help-mode .CodeMirror-lines {
+    background: #383838;
+}
+
+.nightmode .codearea-container .CodeMirror-lines .cm-normalText {
+    color: #fff;
+}
+
+.nightmode.qv-client .qv-codearea .cm-s-default span.cm-number, .nightmode.qv-client .qv-codearea .cm-s-default span.cm-operator, .nightmode .qv-datamodelviewer .qv-codearea .cm-s-default span.cm-number, .nightmode .qv-datamodelviewer .qv-codearea .cm-s-default span.cm-operator {
+    color: #fff !important;
+}
+
+/* botoes barra de cima  */
+/* .nightmode .scripteditor-stage .lui-fade-button {
+    color: #8e8e8e;
+} */
+
+.nightmode .lui-fade-button {
+    color: #5f5f5f;
+}
+
+.nightmode .lui-fade-button.lui-focused, .nightmode .lui-fade-button.lui-hovered, .nightmode .lui-fade-button:active, .nightmode .lui-fade-button:focus, .nightmode .lui-fade-button:hover {
+    color: #949393;
+}
+
+.nightmode #scripteditor-editorToolbarContainer .qui-toolbar .lui-fade-button:active:not([disabled]):not(.qui-disabled) {
+    background-color: #585353;
+}
+
+.nightmode .lui-fade-button.lui-disabled, .nightmode .lui-fade-button[disabled] {
+    color: rgba(130, 130, 130, 0.2);
+}
+
+.nightmode #scripteditor-editorToolbarContainer .qui-toolbar .qui-buttonset-left button:after {
+    border-right: 1px solid #5f5f5f;
+}
+
+
+.nightmode .cm-posterror {
+    text-shadow: none;
+    color: #a73232;
+}
+
+.nightmode .codearea-search-view {
+    background-color: #252525;
+    border-bottom: 1px solid #4c4c4c;
 }

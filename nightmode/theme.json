@@ -98,6 +98,12 @@
           "#01b5d0",
           "#3ef0fe",
           "#fff35f",
+          "#c6ef4b",
+          "#fecf05",
+          "#f68121",
+          "#01b5d0",
+          "#3ef0fe",
+          "#fff35f",
           "#c6ef4b"
         ],
         "name": "90s color scheme",
@@ -255,18 +261,7 @@
     "ui": [
       {
         "colors": [
-          "#cccccc",
-          "#ff8aba",
-          "#d83fef",
-          "#af4df8",
-          "#26f9b2",
-          "#fef29c",
-          "#fecf05",
-          "#f68121",
-          "#01b5d0",
-          "#3ef0fe",
-          "#fff35f",
-          "#c6ef4b"
+        
         ],
         "name": "90s color scheme",
         "_id": "5aac0b6cbe1a68155e395fc5"

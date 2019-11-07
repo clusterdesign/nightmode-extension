@@ -616,3 +616,13 @@ screen and (max-width: 640px) {
     color: #cacaca;
 }
 
+
+/* cursor  */
+.nightmode .CodeMirror-cursor {
+    border-left: 1px solid #cacaca;
+}
+
+.nightmode.qv-client .qv-codearea .cm-s-default span.cm-operator.CodeMirror-matchingbracket, .nightmode .qv-datamodelviewer .qv-codearea .cm-s-default span.cm-operator.CodeMirror-matchingbracket {
+    color: #ffce26 !important;
+}
+

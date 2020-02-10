@@ -626,3 +626,14 @@ screen and (max-width: 640px) {
     color: #ffce26 !important;
 }
 
+/* fix footer with white text  */
+.nightmode .qv-object .qv-footer-wrapper {
+    background-color: black!important;
+}
+
+.nightmode .qv-object .qv-footer-wrapper {
+    background-color: inherit;
+    background-color: #222!important;
+}
+
+
